@@ -1,0 +1,83 @@
+name: bounce_box
+description: Bounce box game
+
+version: 1.0.5+11
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flame:
+    path: ../../flame
+  shared_preferences: ^0.5.3+1
+  gapless_audio_loop: ^0.0.1
+  url_launcher: ^5.1.0
+  vector_math: ^2.0.8
+  flutter_inapp_purchase: ^1.0.1
+  dio: 3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.7.2"
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png"
+
+flutter:
+
+  fonts:
+    - family: PixelIntv
+      fonts:
+        - asset: assets/PixelIntv.otf
+  assets:
+    # Firescore
+    - assets/firescore_uuid
+
+    # Gameplay
+    - assets/images/bob.png
+    - assets/images/background-texture.png
+    - assets/images/enemies.png
+    - assets/images/coin.png
+    - assets/images/hud.png
+    - assets/images/hats.png
+    - assets/images/enemy-death.png
+    - assets/images/enemy-death-poof.png
+    - assets/images/pick-ups.png
+
+    # Hats screen
+    - assets/images/hats-background.png
+
+    # Title screen
+    - assets/images/title-screen.png
+    - assets/images/sound-icon-on.png
+    - assets/images/sound-icon-off.png
+
+    # Credits screen
+    - assets/images/fire-slime.png
+    - assets/images/fabrisounds-logo.png
+
+    # Support screen
+    - assets/images/buy-coffee.png
+
+    # Music
+    - assets/audio/bob_box_loop.aac
+    - assets/audio/bob_box_menu.aac
+
+    # sfxs
+    - assets/audio/sfxs/Coin.aac
+    - assets/audio/sfxs/Enemy_Burn.aac
+    - assets/audio/sfxs/Hit_Enemy.aac
+    - assets/audio/sfxs/Magnet.aac
+    - assets/audio/sfxs/Nugget.aac
+    - assets/audio/sfxs/Select_Menu.aac
+    - assets/audio/sfxs/UI_Start_Game.aac
+    - assets/audio/sfxs/Buy_Hat.aac
+    - assets/audio/sfxs/Bubble_Shield.aac
+    - assets/audio/sfxs/Coffee.aac
+    - assets/audio/sfxs/Grow.aac
+    - assets/audio/sfxs/Shrink.aac
